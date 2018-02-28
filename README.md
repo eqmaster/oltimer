@@ -1,6 +1,8 @@
 # oltimer
 How to Use?
+
 	//var map = new ol.Map({......
+	
     	var olt = new oltimer(map,'olTimer');
 		var dats = [];
 		var years = [0,1,2,3,4,5,6,7];
