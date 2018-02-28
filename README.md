@@ -26,7 +26,9 @@ How to Use?
 			};
 		}
 		
-		//the datas,the startPosition,the duration
-    
+
+
+//olt.setStyle(style);
+//args:the datas,the startPosition,the duration
 olt.create(dats,2,2500);
 olt.play();
