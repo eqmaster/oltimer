@@ -1,10 +1,11 @@
 # oltimer
 How to Use?
-    //var map = new ol.Map({......
-    var olt = new oltimer(map,'olTimer');
+	//var map = new ol.Map({......
+    	var olt = new oltimer(map,'olTimer');
 		var dats = [];
 		var years = [0,1,2,3,4,5,6,7];
 		for(var i in years)
+		
 		{
 			dats[i]={
 				text:years[i],
@@ -22,6 +23,8 @@ How to Use?
 				]
 			};
 		}
-    //the datas,the startPosition,the duration
-		olt.create(dats,2,2500);
-		olt.play();
+		
+		//the datas,the startPosition,the duration
+    
+olt.create(dats,2,2500);
+olt.play();
